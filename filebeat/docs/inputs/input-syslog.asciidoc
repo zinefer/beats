@@ -7,7 +7,8 @@
 <titleabbrev>Syslog/titleabbrev>
 ++++
 
-Use the `syslog` input to read events over TCP or UDP.
+Use the `syslog` input to read events over TCP or UDP, this input will parse BSD (rfc3164)
+event and some variant.
 
 Example configurations:
 
